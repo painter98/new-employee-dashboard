@@ -1,0 +1,45 @@
+body{
+    margin: 5vw;
+    background-color: black;
+    color:white;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    row-gap:4vw;
+}
+label{
+    font-size: 1.2vw;
+}
+input{
+    width:27vw;
+    height:5vh;
+    border-color:white;
+    background-color: black;
+    color:white;
+}
+#btn{
+    padding:1vh 2vw;
+}
+#employee-list{
+   color:white;
+   list-style-type: none;
+}
+#error,#success{
+    display:none;
+}
+#error{
+    color:#FF4343;
+}
+#success{
+    color:#43FF78;
+}
+li > div{
+    padding:1vh;
+}
+li{
+    border:1px solid white;
+    padding:5px;
+    display:flex;
+    justify-content: space-between;
+}
